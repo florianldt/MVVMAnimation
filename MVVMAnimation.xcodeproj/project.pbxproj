@@ -7,21 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1710567D22E59CC000DAEFE5 /* ImplementationCachingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710567C22E59CC000DAEFE5 /* ImplementationCachingCollectionViewController.swift */; };
+		1710568022E59DB800DAEFE5 /* CachingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710567F22E59DB800DAEFE5 /* CachingInteractor.swift */; };
+		1710568522E5A51600DAEFE5 /* AlbumChoiceStaticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710568422E5A51600DAEFE5 /* AlbumChoiceStaticViewModel.swift */; };
+		1710568922E5B64E00DAEFE5 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710568822E5B64E00DAEFE5 /* LoadingCell.swift */; };
+		1710568B22E5B69400DAEFE5 /* SubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710568A22E5B69400DAEFE5 /* SubtitleCell.swift */; };
+		1710568D22E5B72900DAEFE5 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710568C22E5B72900DAEFE5 /* AlbumCell.swift */; };
+		1710569022E5B86800DAEFE5 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710568F22E5B86800DAEFE5 /* UICollectionView+Extension.swift */; };
+		1710569222E5CCF500DAEFE5 /* ImplementationDiffingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710569122E5CCF500DAEFE5 /* ImplementationDiffingCollectionViewController.swift */; };
+		1710569722E5CD6300DAEFE5 /* DiffingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710569622E5CD6300DAEFE5 /* DiffingInteractor.swift */; };
 		1769AC4B22D7858600A4F8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC4A22D7858600A4F8F0 /* AppDelegate.swift */; };
-		1769AC4D22D7858600A4F8F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC4C22D7858600A4F8F0 /* ViewController.swift */; };
-		1769AC5022D7858600A4F8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1769AC4E22D7858600A4F8F0 /* Main.storyboard */; };
+		1769AC4D22D7858600A4F8F0 /* ImplementationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC4C22D7858600A4F8F0 /* ImplementationListViewController.swift */; };
 		1769AC5222D7858700A4F8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1769AC5122D7858700A4F8F0 /* Assets.xcassets */; };
 		1769AC5522D7858700A4F8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1769AC5322D7858700A4F8F0 /* LaunchScreen.storyboard */; };
+		1769AC6422D78A9800A4F8F0 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC6322D78A9800A4F8F0 /* Album.swift */; };
+		1769AC6622D78B2E00A4F8F0 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC6522D78B2E00A4F8F0 /* AlbumViewModel.swift */; };
+		1769AC6822D78C1500A4F8F0 /* ImplementationStaticViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC6722D78C1500A4F8F0 /* ImplementationStaticViewsViewController.swift */; };
+		1769AC6E22D78F9300A4F8F0 /* SubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC6D22D78F9300A4F8F0 /* SubtitleView.swift */; };
+		1769AC7022D7982B00A4F8F0 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC6F22D7982B00A4F8F0 /* AlbumView.swift */; };
+		1769AC7222D81EB600A4F8F0 /* StackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC7122D81EB600A4F8F0 /* StackViewCell.swift */; };
+		1769AC7422D81F8F00A4F8F0 /* AlbumStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC7322D81F8F00A4F8F0 /* AlbumStackView.swift */; };
+		1769AC7622D824AD00A4F8F0 /* StaticContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC7522D824AD00A4F8F0 /* StaticContainerViewController.swift */; };
+		1769AC7922D8263C00A4F8F0 /* StaticContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC7822D8263C00A4F8F0 /* StaticContainer.swift */; };
+		1769AC9122D8C9CF00A4F8F0 /* StaticInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC9022D8C9CF00A4F8F0 /* StaticInteractor.swift */; };
+		1769AC9322D8CA6500A4F8F0 /* AlbumChoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC9222D8CA6500A4F8F0 /* AlbumChoiceViewModel.swift */; };
+		1769AC9522D8D2F600A4F8F0 /* ErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC9422D8D2F600A4F8F0 /* ErrorViewModel.swift */; };
+		1769AC9722D8D86B00A4F8F0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC9622D8D86B00A4F8F0 /* LoadingView.swift */; };
+		1769AC9922D99E9E00A4F8F0 /* AlbumChoiceNextButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC9822D99E9E00A4F8F0 /* AlbumChoiceNextButtonViewModel.swift */; };
+		1769AC9B22D99FAE00A4F8F0 /* NextButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769AC9A22D99FAE00A4F8F0 /* NextButtonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1710567C22E59CC000DAEFE5 /* ImplementationCachingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationCachingCollectionViewController.swift; sourceTree = "<group>"; };
+		1710567F22E59DB800DAEFE5 /* CachingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingInteractor.swift; sourceTree = "<group>"; };
+		1710568422E5A51600DAEFE5 /* AlbumChoiceStaticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumChoiceStaticViewModel.swift; sourceTree = "<group>"; };
+		1710568822E5B64E00DAEFE5 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		1710568A22E5B69400DAEFE5 /* SubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleCell.swift; sourceTree = "<group>"; };
+		1710568C22E5B72900DAEFE5 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		1710568F22E5B86800DAEFE5 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		1710569122E5CCF500DAEFE5 /* ImplementationDiffingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationDiffingCollectionViewController.swift; sourceTree = "<group>"; };
+		1710569622E5CD6300DAEFE5 /* DiffingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffingInteractor.swift; sourceTree = "<group>"; };
 		1769AC4722D7858600A4F8F0 /* MVVMAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1769AC4A22D7858600A4F8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1769AC4C22D7858600A4F8F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1769AC4F22D7858600A4F8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1769AC4C22D7858600A4F8F0 /* ImplementationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationListViewController.swift; sourceTree = "<group>"; };
 		1769AC5122D7858700A4F8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1769AC5422D7858700A4F8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1769AC5622D7858700A4F8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1769AC6322D78A9800A4F8F0 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		1769AC6522D78B2E00A4F8F0 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		1769AC6722D78C1500A4F8F0 /* ImplementationStaticViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationStaticViewsViewController.swift; sourceTree = "<group>"; };
+		1769AC6D22D78F9300A4F8F0 /* SubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleView.swift; sourceTree = "<group>"; };
+		1769AC6F22D7982B00A4F8F0 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		1769AC7122D81EB600A4F8F0 /* StackViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewCell.swift; sourceTree = "<group>"; };
+		1769AC7322D81F8F00A4F8F0 /* AlbumStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumStackView.swift; sourceTree = "<group>"; };
+		1769AC7522D824AD00A4F8F0 /* StaticContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContainerViewController.swift; sourceTree = "<group>"; };
+		1769AC7822D8263C00A4F8F0 /* StaticContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContainer.swift; sourceTree = "<group>"; };
+		1769AC9022D8C9CF00A4F8F0 /* StaticInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticInteractor.swift; sourceTree = "<group>"; };
+		1769AC9222D8CA6500A4F8F0 /* AlbumChoiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumChoiceViewModel.swift; sourceTree = "<group>"; };
+		1769AC9422D8D2F600A4F8F0 /* ErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewModel.swift; sourceTree = "<group>"; };
+		1769AC9622D8D86B00A4F8F0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1769AC9822D99E9E00A4F8F0 /* AlbumChoiceNextButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumChoiceNextButtonViewModel.swift; sourceTree = "<group>"; };
+		1769AC9A22D99FAE00A4F8F0 /* NextButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +81,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1710567A22E59C6300DAEFE5 /* UICollectionView+Caching */ = {
+			isa = PBXGroup;
+			children = (
+				1710567E22E59DAB00DAEFE5 /* ViewModel */,
+				1710567B22E59CA700DAEFE5 /* View */,
+			);
+			path = "UICollectionView+Caching";
+			sourceTree = "<group>";
+		};
+		1710567B22E59CA700DAEFE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1710567C22E59CC000DAEFE5 /* ImplementationCachingCollectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1710567E22E59DAB00DAEFE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1710567F22E59DB800DAEFE5 /* CachingInteractor.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1710568722E5B63900DAEFE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1710568822E5B64E00DAEFE5 /* LoadingCell.swift */,
+				1710568A22E5B69400DAEFE5 /* SubtitleCell.swift */,
+				1710568C22E5B72900DAEFE5 /* AlbumCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1710568E22E5B85200DAEFE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1710568F22E5B86800DAEFE5 /* UICollectionView+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1710569322E5CCFD00DAEFE5 /* UICollectionView+Diffing */ = {
+			isa = PBXGroup;
+			children = (
+				1710569522E5CD2400DAEFE5 /* ViewModel */,
+				1710569422E5CD1E00DAEFE5 /* View */,
+			);
+			path = "UICollectionView+Diffing";
+			sourceTree = "<group>";
+		};
+		1710569422E5CD1E00DAEFE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1710569122E5CCF500DAEFE5 /* ImplementationDiffingCollectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1710569522E5CD2400DAEFE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1710569622E5CD6300DAEFE5 /* DiffingInteractor.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1769AC3E22D7858600A4F8F0 = {
 			isa = PBXGroup;
 			children = (
-				1769AC4922D7858600A4F8F0 /* MVVMAnimation */,
+				1769AC4922D7858600A4F8F0 /* Classes */,
 				1769AC4822D7858600A4F8F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +165,124 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1769AC4922D7858600A4F8F0 /* MVVMAnimation */ = {
+		1769AC4922D7858600A4F8F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1710568E22E5B85200DAEFE5 /* Helpers */,
+				1769AC5E22D7898900A4F8F0 /* Implementations */,
+				1769AC5D22D785E800A4F8F0 /* Implementation List */,
+				1769AC5C22D7858F00A4F8F0 /* Supporting Files */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1769AC5C22D7858F00A4F8F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				1769AC4A22D7858600A4F8F0 /* AppDelegate.swift */,
-				1769AC4C22D7858600A4F8F0 /* ViewController.swift */,
-				1769AC4E22D7858600A4F8F0 /* Main.storyboard */,
-				1769AC5122D7858700A4F8F0 /* Assets.xcassets */,
 				1769AC5322D7858700A4F8F0 /* LaunchScreen.storyboard */,
+				1769AC5122D7858700A4F8F0 /* Assets.xcassets */,
 				1769AC5622D7858700A4F8F0 /* Info.plist */,
 			);
-			path = MVVMAnimation;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1769AC5D22D785E800A4F8F0 /* Implementation List */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC4C22D7858600A4F8F0 /* ImplementationListViewController.swift */,
+			);
+			path = "Implementation List";
+			sourceTree = "<group>";
+		};
+		1769AC5E22D7898900A4F8F0 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC6022D78A5800A4F8F0 /* Shared */,
+				1769AC5F22D7899200A4F8F0 /* Static Views */,
+				1710567A22E59C6300DAEFE5 /* UICollectionView+Caching */,
+				1710569322E5CCFD00DAEFE5 /* UICollectionView+Diffing */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		1769AC5F22D7899200A4F8F0 /* Static Views */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC8F22D8C99D00A4F8F0 /* ViewModel */,
+				1769AC7722D8262700A4F8F0 /* Static Container */,
+				1769AC6A22D78DAB00A4F8F0 /* View */,
+			);
+			path = "Static Views";
+			sourceTree = "<group>";
+		};
+		1769AC6022D78A5800A4F8F0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC6122D78A6B00A4F8F0 /* Model */,
+				1769AC6222D78A7200A4F8F0 /* ViewModel */,
+				1710568722E5B63900DAEFE5 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1769AC6122D78A6B00A4F8F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC6322D78A9800A4F8F0 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1769AC6222D78A7200A4F8F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1710568422E5A51600DAEFE5 /* AlbumChoiceStaticViewModel.swift */,
+				1769AC9222D8CA6500A4F8F0 /* AlbumChoiceViewModel.swift */,
+				1769AC6522D78B2E00A4F8F0 /* AlbumViewModel.swift */,
+				1769AC9422D8D2F600A4F8F0 /* ErrorViewModel.swift */,
+				1769AC9822D99E9E00A4F8F0 /* AlbumChoiceNextButtonViewModel.swift */,
+				1769AC9A22D99FAE00A4F8F0 /* NextButtonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1769AC6922D78DA100A4F8F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC6D22D78F9300A4F8F0 /* SubtitleView.swift */,
+				1769AC7322D81F8F00A4F8F0 /* AlbumStackView.swift */,
+				1769AC6F22D7982B00A4F8F0 /* AlbumView.swift */,
+				1769AC9622D8D86B00A4F8F0 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1769AC6A22D78DAB00A4F8F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC6722D78C1500A4F8F0 /* ImplementationStaticViewsViewController.swift */,
+				1769AC6922D78DA100A4F8F0 /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1769AC7722D8262700A4F8F0 /* Static Container */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC7522D824AD00A4F8F0 /* StaticContainerViewController.swift */,
+				1769AC7822D8263C00A4F8F0 /* StaticContainer.swift */,
+				1769AC7122D81EB600A4F8F0 /* StackViewCell.swift */,
+			);
+			path = "Static Container";
+			sourceTree = "<group>";
+		};
+		1769AC8F22D8C99D00A4F8F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1769AC9022D8C9CF00A4F8F0 /* StaticInteractor.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +345,6 @@
 			files = (
 				1769AC5522D7858700A4F8F0 /* LaunchScreen.storyboard in Resources */,
 				1769AC5222D7858700A4F8F0 /* Assets.xcassets in Resources */,
-				1769AC5022D7858600A4F8F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +355,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1769AC4D22D7858600A4F8F0 /* ViewController.swift in Sources */,
+				1710569022E5B86800DAEFE5 /* UICollectionView+Extension.swift in Sources */,
+				1769AC7922D8263C00A4F8F0 /* StaticContainer.swift in Sources */,
+				1769AC6822D78C1500A4F8F0 /* ImplementationStaticViewsViewController.swift in Sources */,
+				1769AC9922D99E9E00A4F8F0 /* AlbumChoiceNextButtonViewModel.swift in Sources */,
+				1769AC6E22D78F9300A4F8F0 /* SubtitleView.swift in Sources */,
+				1710567D22E59CC000DAEFE5 /* ImplementationCachingCollectionViewController.swift in Sources */,
+				1769AC7222D81EB600A4F8F0 /* StackViewCell.swift in Sources */,
+				1769AC9122D8C9CF00A4F8F0 /* StaticInteractor.swift in Sources */,
+				1710569722E5CD6300DAEFE5 /* DiffingInteractor.swift in Sources */,
+				1769AC6622D78B2E00A4F8F0 /* AlbumViewModel.swift in Sources */,
+				1710568D22E5B72900DAEFE5 /* AlbumCell.swift in Sources */,
+				1769AC9322D8CA6500A4F8F0 /* AlbumChoiceViewModel.swift in Sources */,
+				1769AC7622D824AD00A4F8F0 /* StaticContainerViewController.swift in Sources */,
+				1710568522E5A51600DAEFE5 /* AlbumChoiceStaticViewModel.swift in Sources */,
+				1769AC9722D8D86B00A4F8F0 /* LoadingView.swift in Sources */,
+				1769AC9B22D99FAE00A4F8F0 /* NextButtonViewModel.swift in Sources */,
+				1769AC7022D7982B00A4F8F0 /* AlbumView.swift in Sources */,
+				1769AC9522D8D2F600A4F8F0 /* ErrorViewModel.swift in Sources */,
+				1710569222E5CCF500DAEFE5 /* ImplementationDiffingCollectionViewController.swift in Sources */,
+				1769AC7422D81F8F00A4F8F0 /* AlbumStackView.swift in Sources */,
+				1769AC4D22D7858600A4F8F0 /* ImplementationListViewController.swift in Sources */,
+				1710568022E59DB800DAEFE5 /* CachingInteractor.swift in Sources */,
+				1710568922E5B64E00DAEFE5 /* LoadingCell.swift in Sources */,
+				1769AC6422D78A9800A4F8F0 /* Album.swift in Sources */,
 				1769AC4B22D7858600A4F8F0 /* AppDelegate.swift in Sources */,
+				1710568B22E5B69400DAEFE5 /* SubtitleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1769AC4E22D7858600A4F8F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1769AC4F22D7858600A4F8F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1769AC5322D7858700A4F8F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,7 +520,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JMJB9V596;
-				INFOPLIST_FILE = MVVMAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/Supportimg Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +539,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JMJB9V596;
-				INFOPLIST_FILE = MVVMAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/Supportimg Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
